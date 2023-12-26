@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ResortBokingApp/static/css/main.53e0ef09.css",
+    "main.js": "/ResortBokingApp/static/js/main.f52011b8.js",
+    "index.html": "/ResortBokingApp/index.html",
+    "main.53e0ef09.css.map": "/ResortBokingApp/static/css/main.53e0ef09.css.map",
+    "main.f52011b8.js.map": "/ResortBokingApp/static/js/main.f52011b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53e0ef09.css",
+    "static/js/main.f52011b8.js"
+  ]
+}
