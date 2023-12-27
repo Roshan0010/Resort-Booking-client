@@ -104,8 +104,13 @@ axios.get('/places/'+id).then(response=>{
 
   if(id){
     //updata
-   
-    await axios.put('/places',{id,...placeData});
+   const token= localStorage.getItem('token');
+    await axios.put('/places',{id,...placeData},
+    {
+      headers: {
+        Authorization: `Bearer ${token}`
+      }}
+    );
   }
   else {
     //new
