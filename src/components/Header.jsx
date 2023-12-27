@@ -56,7 +56,7 @@ const Header = () => {
 
         <div className='flex items-center  rounded-2xl p-1 gap-3 border-[#EFEEEF] shadow-md ml-5 '>
         <IoIosOptions className="w-6 h-8 text-slate-600 "/>
-          <Link to={user?'/account':'/login'} className='flex items-center'>
+          <Link to={user?'/account/profile':'/login'} className='flex items-center'>
           <FaUserCircle className="w-8 h-10 text text-slate-500 "/>
           {user?(<div className='font-light m-1 p-1'>{user.name}</div>):(<div/>)}
           </Link>

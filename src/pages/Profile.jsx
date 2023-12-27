@@ -11,7 +11,6 @@ const Profile = () => {
     localStorage.removeItem('token');
     setUser(null);
   }
-
   let { subpage } = useParams();
 
   if (subpage === undefined) {
@@ -25,8 +24,6 @@ const Profile = () => {
   if (!user && ready) {
     return <Navigate to={'/login'} />;
   }
-
- 
 
   return (
     <div className='w-[100%]'>

@@ -19,7 +19,7 @@ const Account = () => {
  
     <div className='w-[80%]'>
     <AccNav/>
-    {lastDir===undefined &&(<Profile/>)
+    {lastDir==='profile' &&(<Profile/>)
     }
     {lastDir==='bookings' && !id &&(<Bookings/>)
     }

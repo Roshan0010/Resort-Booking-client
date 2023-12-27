@@ -31,7 +31,7 @@ function App() {
       <Route path="/place/:id" element={<PlacePage/>} />
       <Route path="/login" element={<Login/>} />
       <Route path="/register" element={<Register/>} />
-      <Route path="/account/" element={<Account/>} />
+      <Route path="/account/profile" element={<Account/>} />
       <Route path="/account/bookings" element={<Account/>} />
       <Route path="/account/bookings/:id" element={<Account/>} />
       <Route path="/account/places" element={<Account/>} />
@@ -40,9 +40,6 @@ function App() {
       
       </Routes>
       </div>
-  
-      
-      
     </div>
     </UserContextProvider>
   );
